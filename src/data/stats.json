@@ -1,0 +1,121 @@
+{
+  "generatedAt": "2026-10-11T14:29:04.504Z",
+  "repoUrl": "https://github.com/bhaktipg/leetcodesolution",
+  "solutions": 242,
+  "commits": 239,
+  "activeDays": 104,
+  "firstCommit": "2026-04-27T23:00:16Z",
+  "lastCommit": "2026-10-09T01:53:06Z",
+  "languages": [
+    {
+      "label": "Python",
+      "value": 181
+    },
+    {
+      "label": "SQL",
+      "value": 57
+    },
+    {
+      "label": "JavaScript",
+      "value": 2
+    },
+    {
+      "label": "Pandas",
+      "value": 2
+    }
+  ],
+  "commitsByMonth": [
+    {
+      "month": "2026-04",
+      "value": 9
+    },
+    {
+      "month": "2026-05",
+      "value": 83
+    },
+    {
+      "month": "2026-06",
+      "value": 51
+    },
+    {
+      "month": "2026-07",
+      "value": 27
+    },
+    {
+      "month": "2026-08",
+      "value": 19
+    },
+    {
+      "month": "2026-09",
+      "value": 37
+    },
+    {
+      "month": "2026-10",
+      "value": 13
+    }
+  ],
+  "sqlConcepts": [
+    {
+      "label": "Aggregates",
+      "value": 37
+    },
+    {
+      "label": "GROUP BY",
+      "value": 33
+    },
+    {
+      "label": "JOINs",
+      "value": 20
+    },
+    {
+      "label": "Subqueries",
+      "value": 15
+    },
+    {
+      "label": "HAVING",
+      "value": 10
+    },
+    {
+      "label": "CASE WHEN",
+      "value": 7
+    },
+    {
+      "label": "UNION",
+      "value": 7
+    },
+    {
+      "label": "Date functions",
+      "value": 2
+    }
+  ],
+  "pythonPatterns": [
+    {
+      "label": "Hash maps",
+      "value": 32
+    },
+    {
+      "label": "Sorting",
+      "value": 23
+    },
+    {
+      "label": "Sets",
+      "value": 15
+    },
+    {
+      "label": "Two pointers",
+      "value": 13
+    },
+    {
+      "label": "Binary trees",
+      "value": 10
+    },
+    {
+      "label": "BFS / queues",
+      "value": 8
+    },
+    {
+      "label": "Linked lists",
+      "value": 1
+    }
+  ]
+}
