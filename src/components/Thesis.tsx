@@ -4,11 +4,11 @@ export default function Thesis() {
       <div className="wrap">
         <div className="thesis-grid reveal">
           <div className="thesis-side">
-            <span className="mono">The domain</span>
-            <h3>Knows why the rule exists</h3>
+            <span className="mono">The business</span>
+            <h3>Knows why it matters</h3>
             <p>
-              Rating, underwriting, billing, and the full policy lifecycle. I know what breaks for an agent
-              when a form edition changes.
+              Stakeholders, processes, and the rules behind them. I know what breaks for users when a
+              requirement changes, and how to get teams aligned on the fix.
             </p>
           </div>
           <div className="thesis-mid">
@@ -18,8 +18,8 @@ export default function Thesis() {
             <span className="mono">The build</span>
             <h3>Knows how to ship the fix</h3>
             <p>
-              SQL against policy data, Python pipelines, and LLM tools that read the documents insurance runs
-              on.
+              SQL against real data, Python pipelines, and AI tools that turn long documents into
+              answers.
             </p>
           </div>
         </div>

@@ -5,11 +5,11 @@ export default function Lines() {
     <section id="lines">
       <div className="wrap">
         <div className="section-head reveal">
-          <span className="eyebrow">Lines of business</span>
-          <h2>Three lines, at three stages.</h2>
+          <span className="eyebrow">What I do</span>
+          <h2>Three skill areas, at different stages.</h2>
           <p>
-            One line is already in force. One is being endorsed. One is new business that's been
-            written and is growing. Each comes with proof, not just keywords.
+            One is my core strength, one is growing fast, and one I'm actively building. Each has real
+            work behind it.
           </p>
         </div>
         <div className="lines">

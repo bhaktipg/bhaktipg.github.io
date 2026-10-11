@@ -11,10 +11,12 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/pbp04",
   github: "https://github.com/bhaktipg",
   resume: "/Bhakti_Patel_Resume.pdf",
+  // Drop a portrait at public/profile.jpeg (roughly 4:5, at least 400×500). Until then a monogram shows.
+  photo: "/profile.jpeg",
   careerStart: 2019,
 };
 
-export type LineStatus = "in-force" | "endorsing" | "new-business";
+export type LineStatus = "expert" | "growing" | "building";
 
 export const lines: {
   code: string;
@@ -26,27 +28,27 @@ export const lines: {
   tools: string[];
 }[] = [
   {
-    code: "LOB-01",
-    name: "Insurance & Business Analysis",
-    status: "in-force",
-    statusLabel: "In force · 6+ yrs",
+    code: "01",
+    name: "Business Analysis & Product",
+    status: "expert",
+    statusLabel: "Expert · 6+ yrs",
     pitch:
-      "I own requirements end to end, from the first stakeholder conversation to UAT sign-off, for Personal Lines, Commercial Lines, and Workers' Comp.",
+      "I turn business needs into clear requirements and see them through to sign-off. Those are the same skills product management runs on.",
     proof: [
       "Dual Guidewire ACE: PolicyCenter + BillingCenter",
       "Functional SME across PolicyCenter, BillingCenter & ClaimCenter at Encova",
-      "Full policy lifecycle: submission → issuance → change → cancellation → rewrite",
+      "Owned backlog definition, refinement, and estimation in Rally",
       "Set the BA function's standards; onboarding SME for new PolicyCenter analysts",
     ],
-    tools: ["BRD", "FSD", "RTM", "User stories", "UAT", "GAP analysis", "AS-IS / TO-BE", "Rally", "JIRA", "HP ALM"],
+    tools: ["Requirements", "User stories", "Backlog", "UAT", "GAP analysis", "BRD / FSD", "Agile", "JIRA", "Rally"],
   },
   {
-    code: "LOB-02",
+    code: "02",
     name: "Data Analysis",
-    status: "endorsing",
-    statusLabel: "Endorsement in progress",
+    status: "growing",
+    statusLabel: "Growing",
     pitch:
-      "Most of my BA work comes down to data: mapping legacy policy structures to Guidewire, deciding what gets migrated, and tracing production issues through the logs.",
+      "Much of my BA work already comes down to data: mapping legacy systems to new ones, deciding what gets migrated, and tracing production issues through the logs.",
     proof: [
       "Owned source-to-target mapping for PolicyCenter data entities",
       "Set the migration strategy: historical vs. active data, look-back windows, scope",
@@ -56,12 +58,12 @@ export const lines: {
     tools: ["SQL", "MS SQL Server", "Oracle", "MySQL", "Pandas", "Tableau", "Splunk", "Excel"],
   },
   {
-    code: "LOB-03",
+    code: "03",
     name: "Software & AI Engineering",
-    status: "new-business",
-    statusLabel: "New business · bound",
+    status: "building",
+    statusLabel: "Building",
     pitch:
-      "I want to build the systems I used to write requirements for. I started with LLM tooling that solves the document-heavy problems insurance has everywhere.",
+      "I want to build the systems I used to write requirements for. I started with AI tools that solve document-heavy problems.",
     proof: [
       "Built a Copilot AI agent for Commercial Lines & WC policy-form comparison",
       "Built a modular RAG document Q&A system with tests and an eval harness",
@@ -86,12 +88,12 @@ export const history: Transaction[] = [
   {
     type: "Endorsement",
     period: "Pending · 2026 →",
-    role: "Adding coverage: Data Analyst + AI Engineer",
+    role: "Growing into: Data, Product & Software Engineering",
     org: "Self-directed",
     pending: true,
     points: [
       "Daily SQL & Python practice, logged publicly on GitHub",
-      "Building RAG and LLM agent projects aimed at P&C insurance problems",
+      "Building AI projects (RAG, LLM agents) that solve real business problems",
       "Looking for roles where domain depth and hands-on building both matter",
     ],
   },
@@ -252,7 +254,7 @@ export const credentials = [
   { label: "Guidewire ACE", detail: "BillingCenter Business Analyst", kind: "Certification" },
   { label: "IBM: AI Applications with Python & Flask", detail: "Course certificate · Emotion Detector project", kind: "Certification" },
   { label: "M.S. Electrical & Computer Engineering", detail: "Georgia Institute of Technology · 2019", kind: "Education" },
-  { label: "B.Tech Electronics & Telecommunication", detail: "VJTI, Mumbai · 2017", kind: "Education" },
+  { label: "B.Tech Electronics & Telecom", detail: "VJTI, Mumbai · 2017", kind: "Education" },
 ];
 
 export const toolbox: { group: string; items: string[] }[] = [
@@ -263,8 +265,8 @@ export const toolbox: { group: string; items: string[] }[] = [
 ];
 
 export const openTo = [
-  "Senior / Technical BA (Guidewire)",
-  "Data Analyst: insurance & financial data",
-  "Insurtech product roles",
-  "AI / ML engineering with a domain focus",
+  "Senior / Technical Business Analyst",
+  "Data Analyst",
+  "Product Manager / Product Owner",
+  "Software Engineer (Python, AI)",
 ];

@@ -19,13 +19,13 @@ export default function Contact() {
     <section id="contact" className="contact">
       <div className="wrap contact-grid">
         <div className="reveal">
-          <span className="eyebrow">Get a quote</span>
+          <span className="eyebrow">Get in touch</span>
           <h2 style={{ marginTop: 18 }}>
-            Need someone who speaks <em>underwriting</em> and <em>Python</em>?
+            Need someone who speaks <em>business</em> and <em>Python</em>?
           </h2>
           <p className="contact-lede">
-            I'm happy to talk about roles, insurtech ideas, or the hard parts of a Guidewire program. Email
-            gets the fastest reply.
+            I'm happy to talk about data, product, or engineering roles, or a problem you're trying to solve.
+            Email gets the fastest reply.
           </p>
           <div className="contact-links">
             <div className="contact-link">
@@ -48,7 +48,7 @@ export default function Contact() {
           </div>
         </div>
         <aside className="open-to reveal" style={{ transitionDelay: "100ms" }}>
-          <h3>Coverage requested · open to</h3>
+          <h3>Open to</h3>
           <ul>
             {openTo.map((o, i) => (
               <li key={o}>

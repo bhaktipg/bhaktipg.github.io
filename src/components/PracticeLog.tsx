@@ -242,13 +242,12 @@ export default function PracticeLog() {
         <div className="data-note reveal">
           <Pipeline />
           <p>
-            <strong>How this works:</strong> <code>scripts/fetch-stats.mjs</code> calls the GitHub API, pulls
-            every solution file, classifies it as SQL, Python, or Pandas, pattern-matches the techniques used,
-            and writes a JSON snapshot. A GitHub Action runs it before each build and once a week. Last
-            refreshed {fmtDate(stats.generatedAt)}.{" "}
-            <a className="text-link" href={stats.repoUrl} target="_blank" rel="noreferrer">
-              Browse the solutions <ArrowUpRight />
-            </a>
+            Pulled automatically from GitHub · Last refreshed {fmtDate(stats.generatedAt)}
+            <span className="data-note-links">
+              <a className="text-link" href={stats.repoUrl} target="_blank" rel="noreferrer">
+                Browse the solutions <ArrowUpRight />
+              </a>
+            </span>
           </p>
         </div>
       </div>
